@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #ef6c57;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+body {
+    line-height: 1.7;
+    color: #4d4d4d;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/*NavBar*/
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+/*Home*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 570px;
+    /*Overlay*/
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home .card-form {
+    opacity: 0.7;
+    border: 12px solid rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+
+}
+
+#home .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+/*Explore*/
+
+.overlap-section {
+    margin-top: -50px;
+    position: relative;
+    z-index: 9;
+
+}
+
+.unit-1 .unit-1-text {
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.unit-1 .unit-1-text .unit-1-heading {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.unit-1::after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+    background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+}
+
+
+/*About*/
+
+.comments {
+    margin-top: 50px;
+    margin-left: -100px;
+    padding: 20px;
+}
+
+@media(max-width:790px) {
+    .comments {
+        margin-left: 0;
+    }
+}
+
+/*Services*/
+.desInfo {
+
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 0;
+    z-index: 2;
+}
+
+.dark-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+    /*Overlay*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dark-overlay-1 {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    /*Overlay*/
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*contact*/
+#getTouch {
+    background-color: #111;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid rgb(194, 71, 71);
+}

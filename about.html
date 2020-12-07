@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme | Travelo</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#mainNav" id="body">
+    <!-- NavBar -->
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Travelo</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link active">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <header id="home">
+      <div class="home-inner">
+        <div id="slider4" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-item-next carousel-item-left">
+              <div
+                style="
+                  background-image: url('img/hero_bg_1.jpg');
+                  position: relative;
+                  width: 100%;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  background-attachment: fixed;
+                  min-height: 560px;
+                "
+              >
+                <div class="overlay"></div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Never Stop Exploring</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, illo?
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                style="
+                  background-image: url('img/hero_bg_2.jpg');
+                  position: relative;
+                  width: 100%;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  background-attachment: fixed;
+                  min-height: 560px;
+                "
+              >
+                <div class="overlay"></div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Love The Places</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, illo?
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item active carousel-item-left">
+              <div
+                style="
+                  background-image: url('img/home.jpg');
+                  position: relative;
+                  width: 100%;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  background-attachment: fixed;
+                  min-height: 560px;
+                "
+              >
+                <div class="overlay"></div>
+              </div>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Travel With Your Friends</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, illo?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTROLS -->
+          <a href="#slider4" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a href="#slider4" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 pb-1">
+            <img src="img/logo.png" class="img-fluid" />
+          </div>
+          <div class="col-12 rounded border p-3 bg-light shadow">
+            <h1>About Company</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et
+              modi, expedita debitis quod deleniti maiores accusantium velit!
+              Quasi, earum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team -->
+
+    <section id="ourteam">
+      <div class="container text-center py-3 my-5">
+        <h1 class="desplay-4">Our Team</h1>
+        <div class="row mt-5 pt-3">
+          <div class="col-md-4">
+            <div class="card shadow bg-light">
+              <div class="card-body">
+                <img
+                  src="img/person_1.jpg"
+                  class="img-fluid rounded-circle shadow"
+                  width="50%"
+                  style="margin-top: -50px; margin-bottom: 30px"
+                />
+                <h4>Jean McMiller</h4>
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Soluta, deleniti!
+                </p>
+
+                <i class="fab fa-facebook p-3"></i>
+                <i class="fab fa-instagram p-3"></i>
+                <i class="fab fa-twitter p-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow bg-light">
+              <div class="card-body">
+                <img
+                  src="img/person_2.jpg"
+                  class="img-fluid rounded-circle shadow"
+                  width="50%"
+                  style="margin-top: -50px; margin-bottom: 30px"
+                />
+                <h4>Claire Peters</h4>
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Soluta, deleniti!
+                </p>
+
+                <i class="fab fa-facebook p-3"></i>
+                <i class="fab fa-instagram p-3"></i>
+                <i class="fab fa-twitter p-3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow bg-light">
+              <div class="card-body">
+                <img
+                  src="img/person_4.jpg"
+                  class="img-fluid rounded-circle shadow"
+                  width="50%"
+                  style="margin-top: -50px; margin-bottom: 30px"
+                />
+                <h4>John Sawyer</h4>
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Soluta, deleniti!
+                </p>
+
+                <i class="fab fa-facebook p-3"></i>
+                <i class="fab fa-instagram p-3"></i>
+                <i class="fab fa-twitter p-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What Peaple Say-->
+    <section id="whatsay">
+      <div class="container">
+        <div id="slider5" class="carousel slide py-5 my-5" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-item-next carousel-item-left">
+              <div class="row">
+                <div
+                  class="col-md-7"
+                  style="
+                    background-image: url('img/img_1.jpg');
+                    position: relative;
+                    min-width: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    min-height: 400px;
+                  "
+                ></div>
+                <div class="col-md-5 comments">
+                  <div class="card bg-white border-0 rounded-0">
+                    <div class="card-body">
+                      <p>
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio obcaecati alias odit libero sed blanditiis
+                        saepe ex placeat unde magni consectetur facilis
+                        praesentium eveniet itaque dolores hic doloribus iure
+                        illo earum non, reiciendis exercitationem quidem velit
+                        nobis. Consectetur nostrum iusto tenetur necessitatibus
+                        maiores veniam beatae eos, expedita pariatur molestiae
+                        repellendus."
+                      </p>
+                      <p class="text-muted">
+                        <em>
+                          -James Marten,
+                          <span class="text-danger">Traveler</span></em
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="col-md-7"
+                  style="
+                    background-image: url('img/img_2.jpg');
+                    position: relative;
+                    min-width: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    min-height: 400px;
+                  "
+                ></div>
+                <div class="col-md-5 comments">
+                  <div class="card bg-white border-0 rounded-0">
+                    <div class="card-body">
+                      <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sunt illo soluta quibusdam minima repudiandae
+                        error quo voluptate ex nulla cupiditate deserunt ab
+                        dignissimos excepturi possimus cumque aspernatur amet
+                        quos nisi, fuga voluptas vitae harum vel in! Tempora
+                        laudantium distinctio tempore vitae eius reiciendis quam
+                        facilis asperiores at, accusamus amet rerum ad
+                        voluptates repudiandae."
+                      </p>
+                      <p class="text-muted">
+                        <em>
+                          -Clair Augustin,
+                          <span class="text-danger">Traveler</span></em
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active carousel-item-left">
+              <div class="row">
+                <div
+                  class="col-md-7"
+                  style="
+                    background-image: url('img/img_4.jpg');
+                    position: relative;
+                    min-width: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    min-height: 400px;
+                  "
+                ></div>
+                <div class="col-md-5 comments">
+                  <div class="card bg-white border-0 rounded-0">
+                    <div class="card-body">
+                      <p>
+                        "Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Nihil amet pariatur eum provident ab magni saepe
+                        omnis nostrum numquam qui repudiandae maiores maxime
+                        minus rerum, possimus asperiores officia. Quia beatae
+                        magni laborum mollitia labore vitae facere praesentium
+                        voluptatibus vero reiciendis."
+                      </p>
+                      <p class="text-muted">
+                        <em>
+                          -Diana Jouns,
+                          <span class="text-danger">Traveler</span></em
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#slider5" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon text-dark bg-danger"></span>
+          </a>
+
+          <a href="#slider5" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon text-dark bg-danger"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="book">
+      <div class="container text-center my-5">
+        <h1>Want To Travel With Us?</h1>
+        <div class="form-group my-4">
+          <button class="btn btn-danger btn-lg p-3 px-5">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="bg-dark">
+      <div class="container py-2"></div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      //scrollspy
+      $("body").scrollspy({ target: "#mainNav" });
+      //closing navbar
+      $(".navbar-collapse a").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
+  </body>
+</html>
