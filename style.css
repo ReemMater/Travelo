@@ -173,3 +173,9 @@ body {
     margin-bottom: 1.5rem;
     border-bottom: 3px solid rgb(194, 71, 71);
 }
+
+#getTouch,
+#contact,
+.explore {
+    overflow-x: none;
+}
