@@ -176,6 +176,9 @@ body {
 
 #getTouch,
 #contact,
-.explore {
+.explore,
+#services,
+#destination,
+#book {
     overflow-x: hidden;
 }
