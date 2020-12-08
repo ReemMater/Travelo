@@ -177,5 +177,5 @@ body {
 #getTouch,
 #contact,
 .explore {
-    overflow-x: none;
+    overflow-x: hidden;
 }
